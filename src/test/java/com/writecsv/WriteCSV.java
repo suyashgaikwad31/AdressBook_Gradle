@@ -13,10 +13,10 @@ public class WriteCSV {
     private static String Person;
 
     public static void main(String [] args) throws IOException {
-        String filePath = "filepath";
+        String filePath = "filepath.csv";
         Write(filePath);
         System.out.print(filePath);
-        String filepath = "filepath";
+        String filepath = "filepath.csv";
         Read(filePath);
         System.out.print(filePath);
 
